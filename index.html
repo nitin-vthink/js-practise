@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <section class="p-40 h-vh-100">
+        <nav class="flex justify-center items-center fs-30 text-black">
+            <div class="text-decoration-none py-10 px-20 pointer" id="tab1">First Tab</div>
+            <div class="text-decoration-none py-10 px-20 pointer" id="tab2">Second Tab</div>
+            <div class="text-decoration-none py-10 px-20 pointer" id="tab3">Third Tab</div>
+            <div class="text-decoration-none py-10 px-20 pointer" id="tab4">Fourth Tab</div>
+        </nav>
+        <div class="flex justify-center items-center h-full">
+            <div class="p-40 rounded-10 bg-gray-800 hidden" id="content1">
+                <h1 class="fs-50 fw-600 text-center text-white">First Tab Heading</h1>
+                <p class="fs-20 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur efficitur. Sed at ligula a nisl convallis bibendum.</p>
+            </div>
+            <div class="p-40 rounded-10 bg-gray-800 hidden" id="content2">
+                <h1 class="fs-50 fw-600 text-center text-white">Second Tab Heading</h1>
+                <p class="fs-20 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur efficitur. Sed at ligula a nisl convallis bibendum.</p>
+            </div>
+            <div class="p-40 rounded-10 bg-gray-800 hidden" id="content3">
+                <h1 class="fs-50 fw-600 text-center text-white">Third Tab Heading</h1>
+                <p class="fs-20 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur efficitur. Sed at ligula a nisl convallis bibendum.</p>
+            </div>
+            <div class="p-40 rounded-10 bg-gray-800 hidden" id="content4">
+                <h1 class="fs-50 fw-600 text-center text-white">Fourth Tab Heading</h1>
+                <p class="fs-20 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur efficitur. Sed at ligula a nisl convallis bibendum.</p>
+            </div>
+        </div>
+    </section>
+    <div class="absolute bottom-30 w-300 h-300 bg-black rounded-30 p-40 right-0 hidden" id="cookie-consent">
+        <div class="flex justify-between items-start">
+            <img src="./images/cookie-solid-full.svg" width="100px"/> 
+            <button class="pointer bg-black border-none" id="close-btn">
+                <img src="./images/x-solid-full.svg" width="25px"/>
+            </button>          
+        </div>
+        <div class="mt-10 w-70p">
+            <p class="ml-10 fs-30 text-white canosa-light">We use cookies to improve your user experience.</p>
+        </div>
+        <div class="flex item-center justify-center w-full">
+            <button class="w-full pointer bg-white text-black fs-20 fw-600 py-10 px-20 border-none mt-20 rounded-10 canosa-light" id="accept-btn">Accept</button>
+        </div>
+    </div>
+    <section class="p-40">
+        <div class="flex flex-col justify-center items-center h-full">
+            <h1 class="fs-50 fw-600 text-center text-black mb-20">Realtime Characters counter</h1>
+            <div class="flex relative">
+                <textarea id="message-area" name="message" rows="10" cols="50" class="rounded-10 border-black-4 p-10 fs-20" placeholder="start your message"></textarea>
+                <div class="ml-20 fs-20 text-black absolute bottom-10 right-10" id="message-length"></div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

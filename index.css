@@ -1,0 +1,281 @@
+body {
+    font-family: 'Arenta', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.active {
+    border-bottom: 2px solid #000;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.flex {
+    display: flex;;
+}
+.flex-col {
+    flex-direction: column;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.items-center {
+    align-items: center;
+}
+.items-start {
+    align-items: flex-start;
+}
+.text-center {
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+.block {
+    display: block; 
+}
+.p-2{
+    padding: 2px;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-20 {
+    padding: 20px;
+}
+.p-30 {
+    padding: 30px;
+}
+.p-40 {
+    padding: 40px;
+}
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.top-0 {
+    top: 0;
+}
+.left-0 {
+    left: 0;
+}
+.right-0 {
+    right: 0;
+}
+.right-10 {
+    right: 10px;
+}
+.bottom-0 {
+    bottom: 0;
+}
+.bottom-10 {
+    bottom: 10px;
+}
+.bottom-30 {
+    bottom: 30px;
+}
+
+/* height */
+.h-full {
+    height: 100%;
+}
+.h-vh-89 {
+    height: 89vh;
+}
+.h-vh-100 {
+    height: 100vh;
+}
+.h-vh-90 {
+    height: 90vh;
+}
+.h-100 {
+    height: 100px;
+}
+.h-200 {
+    height: 200px;
+}
+.h-300 {
+    height: 300px;
+}
+.h-350 {
+    height: 350px;
+}
+.h-400 {
+    height: 400px;
+}
+.h-500 {
+    height: 500px;
+}
+.h-20{
+    height: 20px;
+}
+.h-60 {
+    height: 60px;
+}
+
+.w-full {
+    width: 100%;
+}
+.w-300{
+    width: 300px;
+}
+.w-350 {
+    width: 350px;
+}
+.w-400 {
+    width: 400px;
+}
+.w-500 {
+    width: 500px;
+}
+.w-20 {
+    width: 20px;
+}
+.w-60 {
+    width: 60px;
+}
+.w-60p {
+    width: 60%;
+}
+.w-70p {
+    width: 70%;
+}
+
+/* bg color */
+.bg-gray-800{
+    background-color: #333;
+}
+.bg-black {
+    background-color: #000;
+}
+
+/* text color */
+.text-white {
+    color: #fff;
+}
+.text-black {
+    color: #000;
+}
+.text-red {
+    color: red;
+}
+.text-red-900 {
+    color: #7f1d1d;
+}
+.text-red-800 {
+    color: #c53030;
+}
+.text-red-700 {
+    color: #c53030;
+}
+.text-red-600 {
+    color: #e53e3e;
+}
+.text-red-500 {
+    color: #f56565;
+}
+.text-red-400 {
+    color: #fc8181;
+}
+
+.border-none {
+    border: none;
+}
+
+/* border-radius */
+.rounded-10 {
+    border-radius: 10px;
+}
+.rounded-20 {
+    border-radius: 20px;
+}
+.rounded-30 {
+    border-radius: 30px;
+}
+
+
+/* Font Size */
+.fs-20 {
+    font-size: 20px;
+}
+.fs-30 {
+    font-size: 30px;
+}
+.fs-40 {
+    font-size: 40px;
+}
+.fs-50 {
+    font-size: 50px;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600 {
+    font-weight: 600;
+}
+
+/* border */
+.border-black-2 {
+    border: 2px solid #000;
+}
+.border-black-4 {
+    border: 4px solid #000;
+}
+.border-black-5 {
+    border: 5px solid #000;
+}
+.border-red-2 {
+    border: 2px solid red;
+}
+.border-red-4 {
+    border: 4px solid red;
+}
+.pointer {
+    cursor: pointer;
+}
+
+
+/* fonts */
+
+@font-face {
+  font-family: 'Arenta';
+  src: url('fonts/Arenta.woff2') format('woff2'),
+       url('fonts/Arenta.woff') format('woff'),
+       url('./Arenta-R9poW.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.arenta {
+    font-family: 'Arenta', sans-serif;
+}
+
+@font-face {
+  font-family: 'CanosaLight';
+  src: url('fonts/CanosaLight.woff2') format('woff2'),
+       url('fonts/CanosaLight.woff') format('woff'),
+       url('./Canosa-Light.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.canosa-light {
+    font-family: 'CanosaLight', sans-serif;
+}
